@@ -37,10 +37,13 @@ Compila y ejecuta el programa por consola con maven: desde la carpeta raíz dond
 
 ```bash
 mvn clean compile `(desde target/classes)`
-java -cp classes com.psp.cmd.ls.grep.a.Lanzador.Lanzador
+java -cp classes com.psp.cmd.ls.grep.a.Lanzador.Lanzador ```
+```
 
 Mostrara la siguiente lista:
 
 > classes
+>
 > generated-sources
+>
 > maven-status
