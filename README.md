@@ -2,7 +2,9 @@
 
 Escribir en la entrada de un proceso desde el programa padre.
 
-El proceso padre lanzará el comando `ls` de Linux y conectará su salida como entrada del proceso hijo `grep`, con el argumento `"a"`.
+Lanzar un proceso que ejecute el comando `ls` de Linux y conectará su salida como entrada del proceso hijo `grep`, con el argumento `"a"`.
+
+Mostar la salida por consola.
 
 La ejecución simula el comportamiento de la consola:
 
