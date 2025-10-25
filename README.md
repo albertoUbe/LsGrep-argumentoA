@@ -36,8 +36,8 @@ ls | grep java
 Compila y ejecuta el programa por consola con maven: desde la carpeta raíz donde se encuentra el `pom.xml`.
 
 ```bash
-mvn clean compile `(desde target/classes)`
-java -cp classes com.psp.cmd.ls.grep.a.Lanzador.Lanzador ```
+mvn clean compile `(desde comando_ls_grep)`
+java -cp target/classes com.psp.cmd.ls.grep.a.Lanzador.Lanzador ```
 ```
 
 Mostrara la siguiente lista:
